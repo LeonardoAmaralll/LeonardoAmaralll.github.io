@@ -36,7 +36,8 @@ int main(int argc, char** argv){
     }
   }
 
-  cv::imshow("trocada", image2);  
+  cv::imshow("trocada", image2);
+  imwrite("troca.png", image2);  
   cv::waitKey();
 
   return 0;

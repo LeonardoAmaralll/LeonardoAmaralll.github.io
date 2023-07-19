@@ -22,7 +22,8 @@ int main(int argc, char** argv){
     }
   }
 
-  cv::imshow("janela", image);  
+  cv::imshow("janela", image);
+  imwrite("regions.png",image);  
   cv::waitKey();
   return 0;
 }

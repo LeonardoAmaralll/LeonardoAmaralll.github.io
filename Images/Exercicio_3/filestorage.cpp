@@ -4,7 +4,7 @@
 #include <string>
 
 int SIDE = 256;
-int PERIODOS = 8;
+int PERIODOS = 4;
 
 int main(int argc, char** argv) {
   std::stringstream ss_img, ss_yml;
